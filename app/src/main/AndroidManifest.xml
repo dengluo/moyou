@@ -108,6 +108,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity.MainActivity2" />
+        <activity android:name=".Activity.WalletActivity" />
+        <activity android:name=".Activity.ExtensionCenterActivity" />
+        <activity android:name=".Activity.CodeUnlockActivity" />
+        <activity android:name=".Activity.EditInfoActivity2" />
+        <activity android:name=".Activity.MemberCenterActivity" />
         <activity android:name=".Activity.MoyouInfoActivity" />
         <activity android:name=".Activity.FlingCardsActivity2" />
         <activity android:name=".Activity.MessageActivity" />

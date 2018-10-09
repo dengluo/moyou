@@ -14,7 +14,7 @@
         android:layout_marginLeft="35dp"
         android:layout_marginTop="60dp">
 
-        <com.moyou.demo.custom.CircleImageView
+        <com.moyou.demo.view.CircleImageView
             android:id="@+id/user_photo"
             android:layout_width="60dp"
             android:layout_height="60dp"

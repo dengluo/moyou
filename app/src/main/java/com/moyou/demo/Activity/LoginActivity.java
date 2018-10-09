@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
@@ -22,14 +23,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private EditText zh;
     private EditText mm;
-    private Button but;
+    private ImageView but;
     private AbortableFuture<LoginInfo> loginRequest;
     private static final String LOGINACTIVITY = "/Login/LoginActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login2);
+        setContentView(R.layout.activity_login);
         initView();
         ARouter.getInstance().build(LOGINACTIVITY).navigation();
     }
@@ -37,7 +38,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private void initView() {
         zh = (EditText) findViewById(R.id.zh);
         mm = (EditText) findViewById(R.id.mm);
-        but = (Button) findViewById(R.id.but);
+        but = (ImageView) findViewById(R.id.but);
 
         but.setOnClickListener(this);
     }

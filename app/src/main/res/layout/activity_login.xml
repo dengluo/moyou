@@ -76,6 +76,42 @@
                 android:layout_height="40dp"
                 android:orientation="horizontal">
 
+            <EditText
+                android:id="@+id/zh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/shape_circle_edt_input"
+                android:hint="请输入账号:"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black_trans60"
+                android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/mm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/shape_circle_edt_input"
+                    android:hint="请输入密码:"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/black_trans60"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -105,6 +141,7 @@
                 android:id="@+id/ll_register_code"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:visibility="gone"
                 android:layout_marginTop="15dp">
 
                 <EditText
@@ -140,7 +177,7 @@
 
 
         <ImageView
-            android:id="@+id/iv_login"
+            android:id="@+id/but"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_marginTop="40dp"

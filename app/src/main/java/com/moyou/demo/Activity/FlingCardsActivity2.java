@@ -1,6 +1,7 @@
 package com.moyou.demo.Activity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
@@ -181,6 +182,40 @@ public class FlingCardsActivity2 extends BaseActivity implements View.OnClickLis
         }
     }
 
+    public void gotoMemberCenter(View view) {
+        startActivity(new Intent(this, MemberCenterActivity.class));
+    }
+
+    public void gotoCodeUnlock(View view) {
+        startActivity(new Intent(this, CodeUnlockActivity.class));
+    }
+
+    public void gotoEditInfo(View view) {
+        startActivity(new Intent(this, EditInfoActivity2.class));
+    }
+
+    public void gotoExtensionCentre(View view) {
+        startActivity(new Intent(this, ExtensionCenterActivity.class));
+    }
+
+    public void gotoWallet(View view) {
+        startActivity(new Intent(this, WalletActivity.class));
+    }
+
+    public void gotoNavigation(View view) {
+//        startActivity(new Intent(this, NavigationActivity.class));
+        startActivity(new Intent(this, WalletActivity.class));
+    }
+
+    public void openLeftSliding() {
+//        leftSlidView.setVisibility(View.VISIBLE);
+        if (drawerLayout.isDrawerOpen(Gravity.START)) {
+            drawerLayout.closeDrawer(Gravity.START);
+        } else {
+            drawerLayout.openDrawer(Gravity.START);
+        }
+    }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()){
@@ -188,7 +223,7 @@ public class FlingCardsActivity2 extends BaseActivity implements View.OnClickLis
                 finish();
                 break;
             case R.id.iv_index_person:
-
+                openLeftSliding();
                 break;
             case R.id.iv_title_heart:
                 openRightSliding();

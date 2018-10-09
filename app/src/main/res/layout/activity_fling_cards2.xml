@@ -26,7 +26,17 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
+                android:visibility="gone"
                 android:src="@mipmap/return_icon" />
+
+            <ImageView
+                android:id="@+id/iv_index_person"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@mipmap/icon_title_person" />
 
             <TextView
                 android:id="@+id/textView"
@@ -79,9 +89,17 @@
         </android.support.v7.widget.RecyclerView>
     </RelativeLayout>
 
+    <!--<include-->
+        <!--android:id="@+id/left_sliding"-->
+        <!--layout="@layout/activity_makefriends_setting"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_gravity="start" />-->
+
     <include
         android:id="@+id/left_sliding"
-        layout="@layout/activity_makefriends_setting"
+        layout="@layout/menu_left_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start" />
