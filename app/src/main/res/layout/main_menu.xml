@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_1"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/person_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="60dp">
+
+        <com.moyou.demo.custom.CircleImageView
+            android:id="@+id/user_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/qq" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/user_photo">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邓罗"
+                android:textColor="@color/color_f2f2f2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_name"
+                android:text="188****0448"
+                android:textColor="@color/color_f2f2f2"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/menu_layout_style"
+            android:onClick="gotoMemberCenter"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                style="@style/menu_icon_style"
+                android:src="@drawable/crown" />
+
+            <TextView
+                style="@style/menu_text_style"
+                android:text="@string/member_centre" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/surplus_days"
+                android:textColor="@color/color_f2f2f2"
+                android:textSize="14sp" />
+
+            <!--<ImageView style="@style/menu_right_arrow_style" />-->
+        </LinearLayout>
+
+        <!--<View style="@style/menu_divider_style" />-->
+
+
+        <LinearLayout
+            style="@style/menu_layout_style"
+            android:onClick="gotoExtensionCentre"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                style="@style/menu_icon_style"
+                android:src="@drawable/icon_expand_small" />
+
+            <TextView
+                style="@style/menu_text_style"
+                android:text="@string/extension_centre" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <!--<ImageView style="@style/menu_right_arrow_style" />-->
+        </LinearLayout>
+
+        <!--<View style="@style/menu_divider_style" />-->
+
+        <LinearLayout
+            style="@style/menu_layout_style"
+            android:onClick="gotoWallet"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                style="@style/menu_icon_style"
+                android:src="@drawable/my_wallet" />
+
+            <TextView
+                style="@style/menu_text_style"
+                android:text="@string/wallet" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <!--<ImageView style="@style/menu_right_arrow_style" />-->
+        </LinearLayout>
+
+        <!--<View style="@style/menu_divider_style" />-->
+
+        <LinearLayout
+            style="@style/menu_layout_style"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                style="@style/menu_icon_style"
+                android:src="@mipmap/feedback" />
+
+            <TextView
+                style="@style/menu_text_style"
+                android:text="@string/my_order" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <!--<ImageView style="@style/menu_right_arrow_style" />-->
+        </LinearLayout>
+
+        <!--<View style="@style/menu_divider_style" />-->
+
+        <LinearLayout
+            style="@style/menu_layout_style"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                style="@style/menu_icon_style"
+                android:src="@mipmap/location_icon" />
+
+            <TextView
+                style="@style/menu_text_style"
+                android:text="@string/receiving_address" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <!--<ImageView style="@style/menu_right_arrow_style" />-->
+        </LinearLayout>
+
+        <!--<View style="@style/menu_divider_style" />-->
+
+        <LinearLayout
+            style="@style/menu_layout_style"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                style="@style/menu_icon_style"
+                android:src="@drawable/icon_setting" />
+
+            <TextView
+                style="@style/menu_text_style"
+                android:text="@string/setting" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <!--<ImageView style="@style/menu_right_arrow_style" />-->
+        </LinearLayout>
+
+        <!--<View style="@style/menu_divider_style" />-->
+
+        <LinearLayout
+            style="@style/menu_layout_style"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                style="@style/menu_icon_style"
+                android:src="@mipmap/guide" />
+
+            <TextView
+                style="@style/menu_text_style"
+                android:text="@string/novice_guidance" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <!--<ImageView style="@style/menu_right_arrow_style" />-->
+        </LinearLayout>
+
+        <!--<View style="@style/menu_divider_style" />-->
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

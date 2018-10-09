@@ -1,0 +1,23 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml:1:1-51
+INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml:1:1-51
+INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml:1:1-51
+	package
+		ADDED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml:1:11-48
+		INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+		INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+		ADDED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+		INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+		ADDED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml
+		INJECTED from F:\AsWorkspace\moyou\crop\src\main\AndroidManifest.xml

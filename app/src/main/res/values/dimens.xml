@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="bike_layout_margin">10sp</dimen>
+    <dimen name="dp5">5sp</dimen>
+    <dimen name="dp10">10sp</dimen>
+    <dimen name="dp15">15sp</dimen>
+    <dimen name="dp20">20sp</dimen>
+    <dimen name="dp25">25sp</dimen>
+    <dimen name="dp30">30sp</dimen>
+    <dimen name="dp35">35sp</dimen>
+    <dimen name="dp40">40sp</dimen>
+    <dimen name="dp45">45sp</dimen>
+    <dimen name="dp50">50sp</dimen>
+    <dimen name="friend_map_btn_height">42dp</dimen>
+    <dimen name="friend_map_bound_padding">80dp</dimen>
+</resources>
