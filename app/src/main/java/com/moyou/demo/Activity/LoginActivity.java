@@ -3,6 +3,7 @@ package com.moyou.demo.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,7 +20,7 @@ import com.netease.nimlib.sdk.RequestCallback;
 import com.netease.nimlib.sdk.auth.LoginInfo;
 
 @Route(path = "/Login/LoginActivity")
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener , View.OnKeyListener{
 
     private EditText zh;
     private EditText mm;
@@ -69,6 +70,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                }
            });
        }
+    }
+
+    @Override
+    public boolean onKey(View view, int i, KeyEvent keyEvent) {
+        return false;
     }
 
 

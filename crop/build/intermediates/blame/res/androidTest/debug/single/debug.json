@@ -1,189 +1,5 @@
 [
     {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_crop__ic_done.png.flat",
-        "source": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\crop__ic_done.png"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media_custom.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_time.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_crop__layout_done_cancel.xml.flat",
-        "source": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\layout\\crop__layout_done_cancel.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_crop__selectable_background.xml.flat",
-        "source": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable\\crop__selectable_background.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout\\notification_action.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_custom.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_template_big_media_custom.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_action.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_crop__ic_cancel.png.flat",
-        "source": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\crop__ic_cancel.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_crop__layout_done_cancel.xml.flat",
-        "source": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\layout\\crop__layout_done_cancel.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_cancel_action.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_icon_background.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_custom.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_big_media_custom.xml"
     },
@@ -192,28 +8,32 @@
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_notification_action_background.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_template_big_media_narrow_custom.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_time.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout\\notification_template_part_time.xml"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_cancel_action.xml.flat",
@@ -228,68 +48,40 @@
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg_low.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable\\notification_bg_low.xml"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_crop__selectable_background.xml.flat",
+        "source": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable\\crop__selectable_background.xml"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media_custom.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_crop__texture.xml.flat",
-        "source": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable\\crop__texture.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_action.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_media_action.xml"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_crop__activity_crop.xml.flat",
-        "source": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\layout\\crop__activity_crop.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
@@ -300,20 +92,28 @@
         "source": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable-v21\\crop__selectable_background.xml"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_crop__selectable_background.xml.flat",
-        "source": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable\\crop__selectable_background.xml"
-    },
-    {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_crop__ic_done.png.flat",
         "source": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\crop__ic_done.png"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_crop__layout_done_cancel.xml.flat",
+        "source": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\layout\\crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_crop__ic_cancel.png.flat",
@@ -324,48 +124,52 @@
         "source": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\crop__tile.png"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_icon_background.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\743807dc065d87b6548f5ad5e3849c0d\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_crop__tile.png.flat",
-        "source": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\crop__tile.png"
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_crop__texture.xml.flat",
         "source": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable\\crop__texture.xml"
     },
     {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_crop__selectable_background.xml.flat",
-        "source": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\drawable-v21\\crop__selectable_background.xml"
-    },
-    {
-        "merged": "D:\\Gdownload\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_crop__activity_crop.xml.flat",
         "source": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\bundles\\debug\\res\\layout\\crop__activity_crop.xml"
+    },
+    {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_notification_action_background.xml.flat",
@@ -374,5 +178,13 @@
     {
         "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "F:\\AsWorkspace\\moyou\\crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\1101debd6197dd0c1f424d73aa29e8ab\\res\\drawable\\notification_tile_bg.xml"
     }
 ]

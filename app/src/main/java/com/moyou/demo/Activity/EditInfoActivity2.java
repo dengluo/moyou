@@ -5,6 +5,7 @@ import android.app.DatePickerDialog;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
@@ -14,6 +15,7 @@ import android.provider.MediaStore;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -52,6 +54,7 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
     private TextView mWeight;
     private TextView mBirth;
     private TextView mArea;
+    private TextView tv_editinfo2_name;
 
     private List<LinearLayout> editBars;
     private int mYear;
@@ -83,10 +86,23 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
 
         mSex = (TextView) findViewById(R.id.edit_sex);
         mNick = (TextView) findViewById(R.id.edit_nick);
+        tv_editinfo2_name =  (TextView) findViewById(R.id.tv_editinfo2_name);
         mHeight = (TextView) findViewById(R.id.edit_height);
         mWeight = (TextView) findViewById(R.id.edit_weight);
         mBirth = (TextView) findViewById(R.id.edit_birth);
         mArea = (TextView) findViewById(R.id.edit_area);
+
+        SharedPreferences sharedPreferences = getSharedPreferences("EditInfoActivity2", Context.MODE_PRIVATE);
+        String weight = sharedPreferences.getString("weight", "65kg");
+        mWeight.setText(weight);
+        mSex.setText(sharedPreferences.getString("sex", "男"));
+        mNick.setText(sharedPreferences.getString("nick", "Aaron"));
+        tv_editinfo2_name.setText(mNick.getText().toString());
+        mHeight.setText(sharedPreferences.getString("height", "168cm"));
+        mBirth.setText(sharedPreferences.getString("birth", "1980-01-01"));
+        mArea.setText(sharedPreferences.getString("area", "深圳市 罗湖区"));
+
+
         findViewById(R.id.close).setOnClickListener(this);
         findViewById(R.id.buy_vip).setOnClickListener(this);
         findViewById(R.id.buy_vip_ic).setOnClickListener(this);
@@ -191,6 +207,10 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
             @Override
             public void onOptionsSelect(int options1, int options2, int options3, View v) {
                 String tx =options2Items.get(options1).get(options2) + " " + options3Items.get(options1).get(options2).get(options3);
+                SharedPreferences sharedPreferences = getSharedPreferences("EditInfoActivity2", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();//获取编辑器
+                editor.putString("area", tx);
+                editor.commit();//提交修改
                 mArea.setText(tx);
             }
         })
@@ -219,6 +239,10 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
             @Override
             public void onOptionsSelect(int options1, int options2, int options3, View v) {
                 String tx = weightData.get(options1) + "kg";
+                SharedPreferences sharedPreferences = getSharedPreferences("EditInfoActivity2", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();//获取编辑器
+                editor.putString("weight", tx);
+                editor.commit();//提交修改
                 mWeight.setText(tx);
             }
         })
@@ -243,6 +267,10 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
             @Override
             public void onOptionsSelect(int options1, int options2, int options3, View v) {
                 String tx = heightData.get(options1) + "cm";
+                SharedPreferences sharedPreferences = getSharedPreferences("EditInfoActivity2", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();//获取编辑器
+                editor.putString("height", tx);
+                editor.commit();//提交修改
                 mHeight.setText(tx);
             }
         })
@@ -283,6 +311,10 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
                         days = String.valueOf(mYear) + "-" + (mMonth + 1) + "-" + mDay;
                     }
                 }
+                SharedPreferences sharedPreferences = getSharedPreferences("EditInfoActivity2", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();//获取编辑器
+                editor.putString("birth", days);
+                editor.commit();//提交修改
                 mBirth.setText(days);
             }
         };
@@ -308,7 +340,12 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
                     Toast.makeText(EditInfoActivity2.this, "昵称不能为空", Toast.LENGTH_SHORT).show();
                 else {
                     dialog.cancel();
+                    SharedPreferences sharedPreferences = getSharedPreferences("EditInfoActivity2", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPreferences.edit();//获取编辑器
+                    editor.putString("nick", s);
+                    editor.commit();//提交修改
                     textView.setText(s);
+                    tv_editinfo2_name.setText(s);
                 }
             }
         });
@@ -321,6 +358,10 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
         OptionsPickerView picker = new OptionsPickerBuilder(this,new OnOptionsSelectListener() {
             @Override
             public void onOptionsSelect(int options1, int options2, int options3, View v) {
+                SharedPreferences sharedPreferences = getSharedPreferences("EditInfoActivity2", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();//获取编辑器
+                editor.putString("sex", sexData.get(options1));
+                editor.commit();//提交修改
                 mSex.setText(sexData.get(options1));
             }
         })

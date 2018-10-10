@@ -100,14 +100,16 @@
             android:name="com.netease.cosine.target.receiver"
             android:value="com.netease.nimlib.service.NimReceiver" />
 
-        <activity android:name=".Activity.LoginActivity">
+        <activity android:name=".Activity.ZoomActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Activity.LoginActivity" />
         <activity android:name=".Activity.MainActivity2" />
+        <activity android:name=".Activity.GuideActivity" />
         <activity android:name=".Activity.WalletActivity" />
         <activity android:name=".Activity.ExtensionCenterActivity" />
         <activity android:name=".Activity.CodeUnlockActivity" />

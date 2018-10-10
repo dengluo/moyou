@@ -69,7 +69,7 @@ public class GuideActivity extends AppCompatActivity implements ViewPager.OnPage
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(GuideActivity.this,MainActivity2.class);
+                Intent intent = new Intent(GuideActivity.this,LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
