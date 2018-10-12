@@ -17,9 +17,16 @@ android {
         multiDexEnabled true
     }
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+            manifestPlaceholders = [AMAP_KEY: "ff816a2082ac2c70e9c57cc5a9a0f8c0"]
+            ext.enableCrashlytics = false
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [AMAP_KEY: "ff816a2082ac2c70e9c57cc5a9a0f8c0"]
+            ext.enableCrashlytics = true
         }
     }
     configurations.all {

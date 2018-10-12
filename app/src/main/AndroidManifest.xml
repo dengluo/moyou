@@ -50,6 +50,10 @@
         android:supportsRtl="true"
         android:name=".MainApplication"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="${AMAP_KEY}" />
         <meta-data
             android:name="com.netease.nim.appKey"
             android:value="3a1c98612d213723c2d2870a0c1bc513" />
@@ -108,7 +112,8 @@
         </activity>
 
         <activity android:name=".Activity.LoginActivity" />
-        <activity android:name=".Activity.MainActivity2" />
+        <!--<activity android:name=".Activity.MainActivity2" />-->
+        <activity android:name=".Activity.MemberPrivilegesActivity" />
         <activity android:name=".Activity.GuideActivity" />
         <activity android:name=".Activity.WalletActivity" />
         <activity android:name=".Activity.ExtensionCenterActivity" />
@@ -126,6 +131,15 @@
         <activity android:name=".Activity.SystemMessageActivity" />
         <activity android:name=".Activity.UserProfileSettingActivity" />
         <activity android:name=".Activity.UserProfileEditItemActivity" />
+        <activity android:name=".Activity.RouteDetailActivity" />
+        <activity android:name=".Activity.MoyouPairActivity" />
+        <activity android:name=".Activity.MakeFriendsSettingActivity" />
+        <activity android:name=".Activity.FriendsChatActivity" />
+        <activity android:name=".Activity.MemberIPromotedActivity" />
+        <activity android:name=".alipay.PayDemoActivity" />
+        <activity android:name=".alipay.H5PayDemoActivity" />
+        <activity android:name=".Activity.RedPacketRecord" />
+        <activity android:name=".Activity.PocketMoneyActivity" />
         <activity
             android:name=".Activity.LocationAmapActivity"
             android:configChanges="keyboardHidden|orientation"
@@ -138,6 +152,33 @@
             android:label="@string/location_navigate"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <!-- alipay sdk begin -->
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+
+        <!-- alipay sdk end -->
+        <activity
+            android:name=".Activity.BDInnerNaviActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

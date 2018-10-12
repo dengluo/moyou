@@ -19,21 +19,21 @@ import com.netease.nimlib.sdk.AbortableFuture;
 import com.netease.nimlib.sdk.RequestCallback;
 import com.netease.nimlib.sdk.auth.LoginInfo;
 
-@Route(path = "/Login/LoginActivity")
+//@Route(path = "/Login/LoginActivity")
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener , View.OnKeyListener{
 
     private EditText zh;
     private EditText mm;
     private ImageView but;
     private AbortableFuture<LoginInfo> loginRequest;
-    private static final String LOGINACTIVITY = "/Login/LoginActivity";
+//    private static final String LOGINACTIVITY = "/Login/LoginActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         initView();
-        ARouter.getInstance().build(LOGINACTIVITY).navigation();
+//        ARouter.getInstance().build(LOGINACTIVITY).navigation();
     }
 
     private void initView() {
