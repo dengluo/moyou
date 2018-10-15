@@ -74,8 +74,8 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editinfo2);
 //        getSupportActionBar().hide();
-        if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED){
-            requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},900);
+        if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 900);
         }
 
         DraggableSquareView dragSquare = (DraggableSquareView) findViewById(R.id.drag_square);
@@ -86,7 +86,7 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
 
         mSex = (TextView) findViewById(R.id.edit_sex);
         mNick = (TextView) findViewById(R.id.edit_nick);
-        tv_editinfo2_name =  (TextView) findViewById(R.id.tv_editinfo2_name);
+        tv_editinfo2_name = (TextView) findViewById(R.id.tv_editinfo2_name);
         mHeight = (TextView) findViewById(R.id.edit_height);
         mWeight = (TextView) findViewById(R.id.edit_weight);
         mBirth = (TextView) findViewById(R.id.edit_birth);
@@ -206,7 +206,7 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
         OptionsPickerView pvOptions = new OptionsPickerBuilder(this, new OnOptionsSelectListener() {
             @Override
             public void onOptionsSelect(int options1, int options2, int options3, View v) {
-                String tx =options2Items.get(options1).get(options2) + " " + options3Items.get(options1).get(options2).get(options3);
+                String tx = options2Items.get(options1).get(options2) + " " + options3Items.get(options1).get(options2).get(options3);
                 SharedPreferences sharedPreferences = getSharedPreferences("EditInfoActivity2", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPreferences.edit();//获取编辑器
                 editor.putString("area", tx);
@@ -224,7 +224,7 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
     }
 
     private void highlight(LinearLayout layout) {
-        for (LinearLayout l:editBars) {
+        for (LinearLayout l : editBars) {
             l.setBackgroundColor(0xffffffff);
         }
         layout.setBackgroundColor(0xFFDFE1E1);
@@ -232,10 +232,10 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
 
     private void editWeight() {
         weightData = new ArrayList<>();
-        for (int i = 5; i < 95; i++){
+        for (int i = 5; i < 95; i++) {
             weightData.add(i);
         }
-        OptionsPickerView picker = new OptionsPickerBuilder(this,new OnOptionsSelectListener() {
+        OptionsPickerView picker = new OptionsPickerBuilder(this, new OnOptionsSelectListener() {
             @Override
             public void onOptionsSelect(int options1, int options2, int options3, View v) {
                 String tx = weightData.get(options1) + "kg";
@@ -249,10 +249,10 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
                 .setTitleText("请选择您的体重")
                 .setCancelColor(0xFFFF4081)
                 .setSubmitColor(0xFFFF4081)
-                .setLabels("kg","","")
+                .setLabels("kg", "", "")
                 .setTextColorCenter(0xFFFF4081)
                 .setContentTextSize(30)
-                .setSelectOptions(weightData.size()/2)
+                .setSelectOptions(weightData.size() / 2)
                 .build();
         picker.setPicker(weightData);
         picker.show();
@@ -260,10 +260,10 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
 
     private void editHeight() {
         heightData = new ArrayList<>();
-        for (int i = 50; i < 270; i++){
+        for (int i = 50; i < 270; i++) {
             heightData.add(i);
         }
-        OptionsPickerView picker = new OptionsPickerBuilder(this,new OnOptionsSelectListener() {
+        OptionsPickerView picker = new OptionsPickerBuilder(this, new OnOptionsSelectListener() {
             @Override
             public void onOptionsSelect(int options1, int options2, int options3, View v) {
                 String tx = heightData.get(options1) + "cm";
@@ -278,9 +278,9 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
                 .setCancelColor(0xFFFF4081)
                 .setSubmitColor(0xFFFF4081)
                 .setContentTextSize(30)
-                .setLabels("cm","","")
+                .setLabels("cm", "", "")
                 .setTextColorCenter(0xFFFF4081)
-                .setSelectOptions(heightData.size()/2)
+                .setSelectOptions(heightData.size() / 2)
                 .build();
         picker.setPicker(heightData);
         picker.show();
@@ -322,7 +322,7 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
     }
 
     private void edit(final TextView textView) {
-        View view = LayoutInflater.from(this).inflate(R.layout.edit_dialog,null);
+        View view = LayoutInflater.from(this).inflate(R.layout.edit_dialog, null);
         final AlertDialog dialog = new AlertDialog.Builder(this).setView(view).setCancelable(false).show();
         final EditText editText = (EditText) view.findViewById(R.id.edit);
         editText.setText(textView.getText());
@@ -355,7 +355,7 @@ public class EditInfoActivity2 extends AppCompatActivity implements View.OnClick
         sexData = new ArrayList<>();
         sexData.add("男");
         sexData.add("女");
-        OptionsPickerView picker = new OptionsPickerBuilder(this,new OnOptionsSelectListener() {
+        OptionsPickerView picker = new OptionsPickerBuilder(this, new OnOptionsSelectListener() {
             @Override
             public void onOptionsSelect(int options1, int options2, int options3, View v) {
                 SharedPreferences sharedPreferences = getSharedPreferences("EditInfoActivity2", Context.MODE_PRIVATE);
