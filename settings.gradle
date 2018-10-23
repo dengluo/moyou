@@ -1,1 +1,1 @@
-include ':app', ':uikit', ':crop', ':dragsquareimage', ':flybanner'
+include ':app', ':uikit', ':crop', ':dragsquareimage', ':flybanner', ':avchatkit', ':faceunity'

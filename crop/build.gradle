@@ -6,8 +6,8 @@ apply plugin: 'signing'
 archivesBaseName = 'android-crop'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         minSdkVersion 16
@@ -16,7 +16,6 @@ android {
         testApplicationId 'com.soundcloud.android.crop.test'
         testInstrumentationRunner 'android.test.InstrumentationTestRunner'
     }
-    buildToolsVersion '28'
 
     buildTypes {
         release {

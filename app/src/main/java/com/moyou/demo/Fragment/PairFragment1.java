@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.moyou.demo.R;
+import com.moyou.demo.session.SessionHelper;
 import com.netease.nim.uikit.api.NimUIKit;
 import com.netease.nimlib.sdk.msg.constant.SessionTypeEnum;
 
@@ -47,6 +48,7 @@ public class PairFragment1 extends Fragment implements View.OnClickListener{
         switch (view.getId()) {
             case R.id.rl_paircontent1:
                 NimUIKit.startChatting(context, "Fern", SessionTypeEnum.P2P, null,null);
+//                SessionHelper.startP2PSession(getActivity(), "Fern");
                 break;
             case R.id.rl_paircontent2:
                 NimUIKit.startChatting(context, "Alice", SessionTypeEnum.P2P, null,null);
