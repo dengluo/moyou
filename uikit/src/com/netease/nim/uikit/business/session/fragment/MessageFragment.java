@@ -17,6 +17,9 @@ import com.netease.nim.uikit.business.session.actions.BaseAction;
 import com.netease.nim.uikit.business.session.actions.ImageAction;
 import com.netease.nim.uikit.business.session.actions.LocationAction;
 import com.netease.nim.uikit.business.session.actions.VideoAction;
+import com.netease.nim.uikit.business.session.actions.YuehuiAction1;
+import com.netease.nim.uikit.business.session.actions.YuehuiAction2;
+import com.netease.nim.uikit.business.session.actions.YuehuiAction3;
 import com.netease.nim.uikit.business.session.constant.Extras;
 import com.netease.nim.uikit.business.session.module.Container;
 import com.netease.nim.uikit.business.session.module.ModuleProxy;
@@ -375,9 +378,9 @@ public class MessageFragment extends TFragment implements ModuleProxy {
     // 操作面板集合
     protected List<BaseAction> getActionList() {
         List<BaseAction> actions = new ArrayList<>();
-        actions.add(new ImageAction());
-        actions.add(new VideoAction());
-        actions.add(new LocationAction());
+        actions.add(new YuehuiAction1());
+        actions.add(new YuehuiAction2());
+        actions.add(new YuehuiAction3());
 
         actions.add(new ImageAction());
         actions.add(new VideoAction());

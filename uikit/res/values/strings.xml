@@ -20,6 +20,9 @@
     <string name="readed">已读</string>
 
     <!-- session -->
+    <string name="input_panel_yuehui1">第一印象</string>
+    <string name="input_panel_yuehui2">牵手约会</string>
+    <string name="input_panel_yuehui3">保证金（可退）</string>
     <string name="input_panel_photo">图 片</string>
     <string name="input_panel_video">视 频</string>
     <string name="input_panel_location">位 置</string>
