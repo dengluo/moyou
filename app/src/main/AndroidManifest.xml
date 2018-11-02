@@ -116,6 +116,9 @@
         <activity android:name=".Activity.MemberPrivilegesActivity" />
         <activity android:name=".Activity.GuideActivity" />
         <activity android:name=".Activity.WalletActivity" />
+        <activity android:name=".Activity.ReceivingAddressActivity" />
+        <activity android:name=".Activity.AddReceivingAddressActivity" />
+        <activity android:name=".Activity.SettingActivity" />
         <activity android:name=".Activity.ExtensionCenterActivity" />
         <activity android:name=".Activity.CodeUnlockActivity" />
         <activity android:name=".Activity.EditInfoActivity2" />

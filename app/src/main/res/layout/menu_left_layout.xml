@@ -156,6 +156,7 @@
 
         <LinearLayout
             style="@style/menu_layout_style"
+            android:onClick="gotoSHAddress"
             android:paddingLeft="30dp">
 
             <ImageView
@@ -178,6 +179,7 @@
 
         <LinearLayout
             style="@style/menu_layout_style"
+            android:onClick="gotoSetting"
             android:paddingLeft="30dp">
 
             <ImageView

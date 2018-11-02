@@ -205,6 +205,15 @@ public class FlingCardsActivity2 extends BaseActivity implements View.OnClickLis
         startActivity(new Intent(this, WalletActivity.class));
     }
 
+    public void gotoSHAddress(View view) {
+        startActivity(new Intent(this, ReceivingAddressActivity.class));
+    }
+
+    public void gotoSetting(View view) {
+        startActivity(new Intent(this, SettingActivity.class));
+    }
+
+
     public void gotoNavigation(View view) {
 //        startActivity(new Intent(this, NavigationActivity.class));
         startActivity(new Intent(this, WalletActivity.class));

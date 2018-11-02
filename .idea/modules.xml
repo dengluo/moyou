@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/avchatkit/avchatkit.iml" filepath="$PROJECT_DIR$/avchatkit/avchatkit.iml" />
       <module fileurl="file://$PROJECT_DIR$/crop/crop.iml" filepath="$PROJECT_DIR$/crop/crop.iml" />
       <module fileurl="file://$PROJECT_DIR$/dragsquareimage/dragsquareimage.iml" filepath="$PROJECT_DIR$/dragsquareimage/dragsquareimage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/faceunity/faceunity.iml" filepath="$PROJECT_DIR$/faceunity/faceunity.iml" />
       <module fileurl="file://$PROJECT_DIR$/flybanner/flybanner.iml" filepath="$PROJECT_DIR$/flybanner/flybanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/moyou.iml" filepath="$PROJECT_DIR$/moyou.iml" />
       <module fileurl="file://$PROJECT_DIR$/uikit/uikit.iml" filepath="$PROJECT_DIR$/uikit/uikit.iml" />

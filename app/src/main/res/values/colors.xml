@@ -162,4 +162,14 @@
     <color name="color_c9c9c9">#C9C9C9</color>
     <color name="color_238fea">#238EFA</color>
     <color name="color_999">#999</color>
+
+    //主要布局的线条颜色
+    <color name="main_line_color">#D9D9D9</color>
+    //标题栏颜色
+    <color name="main_status_color">#F3F3F3</color>
+    //主要布局的黑色
+    <color name="main_title_text_color">#333333</color>
+
+    //主要布局的辅助色
+    <color name="main_assist_text_color">#999999</color>
 </resources>
